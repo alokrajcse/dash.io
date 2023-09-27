@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Dashboard</title>
+    <title>SIT HUB - Menu</title>
+      <link rel="icon" type="image/x-icon" href="assanlogo.png">
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -46,7 +48,7 @@
         }
         h2 {
             margin-top: 10px;
-            font-size: 16px; /* Decreased font size */
+            font-size: 16px; 
             color: #333333;
         }
         .divider {
@@ -59,7 +61,29 @@
             text-decoration: none;
         }
 
-        /* Responsive Styles */
+footer {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  height: 3%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+footer h3 {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+footer h3 em {
+  font-style: italic; 
+  font-size: 18px;/* Adding italic style to the <em> tag */
+}
+
         @media screen and (max-width: 768px) {
             .card {
                 width: 150px;
@@ -69,6 +93,15 @@
         }
     </style>
 </head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y1V9XYL6WX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y1V9XYL6WX');
+</script>
 <body>
     <div class="header">
         <h1>SIT HUB</h1>
@@ -77,28 +110,46 @@
     <div class="container">
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdkCz7QpHAA0zu_779OXP2NUfLcEQ8sHBIg-oHJjAHW2yYkYw/viewform" class="card card-link">
             <h2>Upload</h2>
-            <!-- Content for Upload Materials -->
         </a>
         <div class="divider"></div>
-        <a href="https://sitassanbeta.vercel.app/sithubv2.html" class="card card-link">
+        <a href="sithubv2.html" class="card card-link">
             <h2>First Year</h2>
-            <!-- Content for First Year -->
         </a>
-        <div class="card">
-            <h2>Second Year</h2>
-            <!-- Content for Second Year -->
-        </div>
-        <div class="card">
-            <h2>Third Year</h2>
-            <!-- Content for Third Year -->
-        </div>
-        <div class="card">
-            <h2>Fourth Year</h2>
-            <!-- Content for Fourth Year -->
-        </div>
+
+        <a href="semscse.html" class="card card-link">
+            <h2>CSE</h2>
+        </a>
+
+         <a href="semscst.html" class="card card-link">
+            <h2>CST</h2>
+        </a>
+    
+
+
+        <a href="semscen.html" class="card card-link">
+            <h2>CEN</h2>
+        </a>
+         
+        <a href="semsece.html" class="card card-link">
+            <h2>ECE</h2>
+        </a>
+         
+        <a href="semseee.html" class="card card-link">
+            <h2>EEE</h2>
+        </a>
+         
+        <a href="semseie.html" class="card card-link">
+            <h2>EIE</h2>
+        </a>
+      
+        
     </div>
 </body>
     <br>
     <br>
     <br>
+    <br>
+<footer>
+    <h3> ASSAN <em> WEB</em></h3>
+  </footer>
 </html>
